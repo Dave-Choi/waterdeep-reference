@@ -22,7 +22,7 @@ Building.reopenClass({
 		},
 		{
 			id: 3,
-			name: "Builder's hall",
+			name: "Builder's Hall",
 			effect: "Choose 1 Building, pay its cost, and put it into play."
 		},
 		{
