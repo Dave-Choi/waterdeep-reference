@@ -1,0 +1,13 @@
+{{bootstrap-dropdown
+	title = title
+	list = list
+	itemRoute = itemRoute
+	itemDisplayProperty = itemDisplayProperty
+	class = "visible-xs dropdown"
+}}
+
+<div class="list-group hidden-xs">
+{{#each tuple in itemTuples}}
+	{{#link-to itemRoute tuple.item.id class="list-group-item"}}{{tuple.display}}{{/link-to}}
+{{/each}}
+</div>
