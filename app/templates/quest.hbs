@@ -1,0 +1,66 @@
+<h2>{{name}}</h2>
+<h3>{{type}} - {{expansion}} Set</h3>
+
+<div>
+	{{#if isPlotQuest}}
+		<h4>Plot Quest</h4>
+	{{/if}}
+	<p>
+		Requires:
+		<ul>
+		{{#if requiredClerics}}
+			<li>Clerics: {{requiredClerics}}</li>
+		{{/if}}
+		{{#if requiredFighters}}
+			<li>Fighters: {{requiredFighters}}</li>
+		{{/if}}
+		{{#if requiredRogues}}
+			<li>Rogues: {{requiredRogues}}</li>
+		{{/if}}
+		{{#if requiredWizards}}
+			<li>Wizards: {{requiredWizards}}</li>
+		{{/if}}
+		{{#if requiredGold}}
+			<li>Gold: {{requiredGold}}</li>
+		{{/if}}
+		{{#if requiredAdventurers}}
+			<li>Adventurers: {{requiredAdventurers}}</li>
+		{{/if}}
+		</ul>
+	</p>
+	<p>
+		Reward:
+		<ul>
+			<li>Points: {{rewardPoints}}</li>
+		{{#if rewardClerics}}
+			<li>Clerics: {{rewardClerics}}</li>
+		{{/if}}
+		{{#if rewardFighters}}
+			<li>Fighters: {{rewardFighters}}</li>
+		{{/if}}
+		{{#if rewardRogues}}
+			<li>Rogues: {{rewardRogues}}</li>
+		{{/if}}
+		{{#if rewardWizards}}
+			<li>Wizards: {{rewardWizards}}</li>
+		{{/if}}
+		{{#if rewardGold}}
+			<li>Gold: {{rewardGold}}</li>
+		{{/if}}
+		{{#if rewardAdventurers}}
+			<li>Adventurers: {{rewardAdventurers}}</li>
+		{{/if}}
+		{{#if rewardIntrigue}}
+			<li>Intrigue cards: {{rewardIntrigue}}</li>
+		{{/if}}
+		{{#if rewardCorruption}}
+			<li>Corruption: {{rewardCorruption}}</li>
+		{{/if}}
+		{{#if rewardEffect}}
+			<li>Effect: {{rewardEffect}}</li>
+		{{/if}}
+		</ul>
+	</p>
+</div>
+
+{{outlet}}

@@ -1,0 +1,18 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4">
+			{{collapsing-list
+				title = "Quests"
+				list = model
+				itemRoute = "quest"
+				itemDisplayProperty = "name"
+			}}
+		</div>
+
+		<div class="col-sm-8">
+			{{#bootstrap-affixed}}
+				{{outlet}}
+			{{/bootstrap-affixed}}
+		</div>
+	</div>
+</div>
