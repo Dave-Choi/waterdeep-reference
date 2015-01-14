@@ -1,0 +1,17 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4">
+			{{collapsing-list
+				title = "Buildings"
+				list = model
+				itemRoute = "building"
+				itemDisplayProperty = "name"
+			}}
+		</div>
+		<div class="col-sm-8">
+			{{#bootstrap-affixed}}
+				{{outlet}}
+			{{/bootstrap-affixed}}
+		</div>
+	</div>
+</div>

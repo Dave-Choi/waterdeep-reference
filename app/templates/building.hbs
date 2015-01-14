@@ -1,0 +1,19 @@
+<h2>{{name}}</h2>
+<h4>{{expansion}} Set</h4>
+
+<div>
+	<p>
+		<ul>
+		{{#if cost}}
+			<li>Cost: {{cost}} Gold</li>
+		{{/if}}
+
+			<li>Effect: {{effect}}</li>
+
+		{{#if ownerBenefit}}
+			<li>Owner Benefit: {{ownerBenefit}}</li>
+		{{/if}}
+	</p>
+</div>
+
+{{outlet}}
