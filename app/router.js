@@ -24,6 +24,7 @@ Router.map(function() {
   this.resource("buildings", function() {
   	this.resource("building", { path: ":building_id" });
   });
+  this.route("dictionary");
 });
 
 export default Router;
