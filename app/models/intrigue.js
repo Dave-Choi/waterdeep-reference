@@ -291,7 +291,7 @@ Intrigue.reopenClass({
 		},
 		{
 			id: 46,
-			name: "Blackmail",
+			name: "Expose Corruption",
 			expansion: "Skullport",
 			effect: "Each opponent with more corruption than you takes 1 corruption from the Corruption track and places it in his or her Tavern."
 		},
