@@ -1,7 +1,8 @@
 # Waterdeep-reference
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+I couldn't find a reference for all of the cards in the Lords of Waterdeep board game that included all of the expansion cards, so I made one.
+
+This is an Ember application that uses the Ember Data FixtureAdapter for simplicity.  Fixture data is found in `app/models` files.  Data entry was done by hand.  If you spot any errors, please open an issue.
 
 ## Prerequisites
 
