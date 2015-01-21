@@ -243,7 +243,7 @@ Building.reopenClass({
 			id: 37,
 			name: "Hall of Mirrors",
 			expansion: "Undermountain",
-			effect: "Take an adventurers or 1 fighter and 1 rogue from the supply, and place them in your Tavern."
+			effect: "Take an adventurer or 1 fighter and 1 rogue from the supply, and place them in your Tavern."
 		},
 		{
 			id: 38,
