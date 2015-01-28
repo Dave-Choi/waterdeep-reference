@@ -383,6 +383,13 @@ Intrigue.reopenClass({
 			type: "Utility",
 			expansion: "Skullport",
 			effect: "Return 1 adventurer to the supply and up to 2 corruption to the Corruption track from your Tavern.  Each opponent can return 2 adventurers and 1 corruption from his or her Tavern."
+		},
+		{
+			id: 60,
+			name: "Rapid Expansion",
+			type: "Utility",
+			expansion: "Promotion",
+			effect: "Pay 5 gold.  Look at the top 5 Buildings in the Building stack.  Put 1 of those Buildings into play under your control at no cost and put the rest on the bottom of the stack."
 		}
 	]
 });
