@@ -163,7 +163,7 @@ Intrigue.reopenClass({
 		},
 		{
 			id: 27,
-			name: "Ineviable Betrayal",
+			name: "Inevitable Betrayal",
 			expansion: "Undermountain",
 			effect: "Choose 1 opponent.  Remove an adventurer and 2 gold from his or her Tavern and place them in your Tavern.  Give this card to the chosen opponent after playing it."
 		},
