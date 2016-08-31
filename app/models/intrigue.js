@@ -226,7 +226,7 @@ Intrigue.reopenClass({
 			name: "Open Lord",
 			type: "Utility",
 			expansion: "Undermountain",
-			effect: "Reveal your Lord card and discard any of your uncompleted Mandatory Quests.  For teh rest of the game, you cannot be affected by Attack and Mandatory Quest Intrigue cards played by opponents."
+			effect: "Reveal your Lord card and discard any of your uncompleted Mandatory Quests.  For the rest of the game, you cannot be affected by Attack and Mandatory Quest Intrigue cards played by opponents."
 		},
 		{
 			id: 37,
